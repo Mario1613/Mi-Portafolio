@@ -1,5 +1,5 @@
 html{
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 :root{
     --background: linear-gradined(135deg, #667eea7e 0%, #764ba298 100% );
@@ -22,6 +22,10 @@ body{
     overflow: hidden;
     padding: 80px 0;
     max-width: 1200px;
+
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
 
 }
 .subtitle{
@@ -356,9 +360,13 @@ body{
     line-height: 1.5rem;
     
 }
-
+b{
+    
+    color: #000;
+}
 .mb{
     margin-bottom: 1.2rem;
+    
 }
 /**Responsive **/
 @media screen and (max-width: 800px){
@@ -526,6 +534,10 @@ body{
     opacity: 0;
     pointer-events: none;
     transition: opacity .6s;
+
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
    
     
 }
@@ -797,9 +809,11 @@ margin-left: 4rem;
 
 
 
-
-
-
+/*
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
+*/
 
 
 
