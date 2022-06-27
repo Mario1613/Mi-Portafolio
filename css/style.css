@@ -805,7 +805,28 @@ hr{
 margin: 0 auto;
 margin-left: 4rem;
 }
+.descargar{
+    background-color: #00a78e;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+    font-weight: 300;
+    transition: background-color .3s;
+    text-decoration: none;
+    border: 1px solid;
+}
+.descargar:hover{
+    background-color: #fff;
+    color: #00a78e;
+  
 
+}
+.rigth{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: end;
+
+}
 
 
 
